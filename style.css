@@ -1,0 +1,55 @@
+* {padding: 0;
+margin: 10px;
+font-family: Fraunces;
+}
+
+.desafio1 {font-size: 18px;
+font-weight: bold;
+color: orange;
+background-color: rgb(54, 101, 243);}
+
+.lista1 {font-size: 20px;
+text-decoration: underline;
+list-style-type: none;
+}
+
+.lista2 {font-size: 20px;
+background-color: rgba(29, 4, 4, 5);
+color: #2c5c9c;}
+
+.bordas {font-size: 28px;
+  border: 3px dashed;
+  height: 90px;
+  width: 80px;
+  margin: 5px, 8px;
+  padding: 6px, 9px;
+  overflow: scroll;
+}
+
+p {display: inline;
+  background-color: rgb(0, 191, 255);
+}
+
+span {display: block;
+  background-color: rgb(255, 248, 175);}
+
+  .button {width: 100px;
+  }
+
+  .button:hover {height: 40px;}
+
+  a:active {color: rgb(183, 255, 255);
+    background-color: rgb(80, 80, 80);
+  }
+
+  a:visited {color: red;}
+
+  input:focus {background: rgb(223, 223, 255);
+  }
+
+  li:first-child {color: aqua;}
+  li:last-child {color: green;}
+
+
+
+
