@@ -60,16 +60,23 @@ div:not(.animame) {
   transform: translate(0,122px);
   }
 
-@keyframes animacao {
-  from { }
-  to {
-	/* testar propriedades */
-	transform: skewY(25deg)
-  }
-} /* configuração inicial */
-.animame {
-   animation: animacao 1s linear 3s infinite alternate;
+h1{
+  animation-name: aparecer;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
 
 
 

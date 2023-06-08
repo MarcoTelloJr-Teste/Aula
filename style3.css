@@ -1,0 +1,94 @@
+*{padding: 0;
+margin: 0;
+}
+
+
+body {display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+header {display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: solid rgb(255, 150, 150);
+  background-color: rgb(177, 190, 255);
+}
+
+.header {margin: 15px;
+  padding: 0px 10px;
+  border: dotted greenyellow;
+  height: fit-content;
+}
+
+main {display: flex;
+  flex-direction: row;
+  height: 100%;
+  
+  
+}
+
+nav {margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  text-align: center;
+  border: solid rgb(148, 112, 247);
+  background-color: rgb(255, 219, 177);
+}
+
+.nav {margin: 15px;
+  padding: 0px 10px;
+  border: dotted rgb(67, 211, 255);
+  height: fit-content;
+}
+
+aside {margin: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  text-align: center;
+  border: solid rgb(116, 112, 247);
+  background-color: rgb(255, 204, 238);
+}
+
+.aside {margin: 15px;
+  padding: 0px 10px;
+  border: dotted rgb(238, 0, 0);
+  height: fit-content;
+}
+
+article {margin: 5px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+  text-align: center;
+  border: solid rgb(116, 112, 247);
+  background-color: rgb(255, 217, 204);
+  
+}
+
+.article {margin: 15px;
+  padding: 0px 10px;
+  border: dotted rgb(238, 0, 0);
+  height: fit-content;
+}
+
+footer {margin: 5px 0px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  text-align: center;
+  border: solid rgb(228, 227, 185);
+  background-color: rgb(194, 252, 255);
+  
+}
+
+.footer {margin: 5px 5px;
+  border: dotted rgb(43, 44, 41);
+  height: fit-content;
+}
