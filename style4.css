@@ -1,0 +1,89 @@
+* {margin: 0;
+padding: 0;
+}
+
+#grid {display: grid;
+  grid-template-areas: 
+    "header header"
+    "nav content"
+    "footer footer";
+  grid-template-columns: 150px 890px;
+  grid-template-rows: 50px 500px 50px;
+  justify-content: center;
+  margin: 20px 0;
+  text-align: center;
+  font-size: 22px;
+
+}
+
+.header { grid-area: header;
+background-color: RGB(232, 52, 124);
+}
+
+.nav { grid-area: nav;
+background-color: RGB(189, 185, 132);
+}
+
+.content {grid-area: content;
+background-color: RGB(231, 173, 132);
+}
+
+.footer {grid-area: footer; 
+background-color: RGB(119, 169, 153);
+}
+
+#border {border: 2px solid black;
+}
+
+#grade { display: grid;
+  grid-template-areas: 
+    "agua agua azul azul azul"
+    "agua agua marrom marrom cinza"
+    "rosa rosa marrom marrom preto";
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  justify-content: center;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+#borda { border: 2px solid black;
+  border-radius: 15px;
+}
+
+.agua {
+  grid-area: agua;
+  background-color: RGB(53, 155, 138);
+}
+
+.azul { grid-area: azul;
+  background-color: RGB(77, 174, 195);
+
+}
+
+.marrom {grid-area: marrom;
+background-color: RGB(173, 91, 85);
+}
+
+.rosa { grid-area: rosa;
+  background-color: RGB(189, 89, 156);
+}
+
+.cinza { grid-area: cinza;
+background-color: RGB(52, 93, 103);
+}
+
+.preto { grid-area: preto;
+  background-color: RGB(112, 101, 99);
+}
+
+#text {font-size: 42px;
+position: absolute;
+left: 75px;
+text-decoration: underline;
+letter-spacing: 1px;
+}
+
+.atividade1 {top: 250px;}
+
+.atividade2 {top: 900px;}
