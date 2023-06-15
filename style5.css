@@ -1,0 +1,41 @@
+#container {display: grid;
+  grid-template-areas: 
+  "header"
+  "contente"
+  "sidebar";
+  grid-template-columns: 70vw;
+  grid-template-rows: 10vh 60vh 10vh;
+  justify-content: center;
+  grid-gap: 2px;
+
+}
+
+@media only screen and (min-width: 1024px){ 
+  .container{
+  grid-area: 
+  "header header header"
+  "contente sidebar"
+  "contente sidebar";
+  grid-template-columns: 30vw 30vw 30vw;
+  grid-template-rows: 10vh 60vh 10vh;
+} 
+}
+
+
+.border {
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: RGB(255, 191, 203);
+}
+ 
+#header {
+  grid-area: header;
+}
+
+#contente {
+  grid-area: contente;
+}
+
+#header {
+  grid-area: sidebar;
+}

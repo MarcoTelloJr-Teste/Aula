@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {margin-top: 2vh;
+background-color: RGB(89, 149, 218);
+font-size: 1.375rem;
+font-weight: bold;
+}
+
+#grid {
+  display: grid;
+  grid-template-areas: 
+  "header header header"
+  "feature1 feature2 feature3"
+  "logar logar logar"
+  "conteudo conteudo conteudo";
+  grid-template-columns: 33.3vw 33.3vw 33.4vw;
+  grid-template-rows: 25vh 35vh 8vh 30vh;
+  text-align: center;
+}
+
+#feature1 {grid-area: feature1;
+  background-color: RGB(245, 207, 142);
+}
+
+#feature2 {grid-area: feature2;
+  background-color: RGB(200, 198, 250);
+}
+
+#feature3 {grid-area: feature3;
+  background-color: RGB(240, 154, 157);
+}
+
+#header {grid-area: header;
+background-color: RGB(178, 214, 255);
+}
+
+#logar {grid-area: logar;
+background-color: RGB(214, 233, 254);
+}
+
+#conteudo {grid-area: conteudo; 
+  background-color: RGB(234, 237, 240);
+}
+
+@media only screen and (max-width: 480px)  { 
+  #grid {
+    grid-template-areas: 
+    "header"
+    "conteudo"
+    "logar"
+    "feature1"
+    "feature2"
+    "feature3";
+    grid-template-columns: 100vw;
+    grid-template-rows: 20vh 30vh 12vh 12vh 12vh 12vh;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px)  { 
+  #grid {
+    grid-template-areas: 
+    "header header"
+    "conteudo conteudo"
+    "logar feature1"
+    "feature2 feature3";
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 25vh 35vh 19vh 19vh;
+    text-align: center;}
+}
